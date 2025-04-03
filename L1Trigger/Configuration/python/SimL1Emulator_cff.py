@@ -274,6 +274,22 @@ _phase2_siml1emulator.add(L1TBJetsTask)
 from L1Trigger.Phase2L1ParticleFlow.TOoLLiPProducer_cff import *
 _phase2_siml1emulator.add(L1TTOoLLiPTask)
 
+# My producer
+#from L1Trigger.DemoProducer.demoproducer_cfi import *
+#_phase2_siml1emulator.add(demoProducer)
+
+# My producer in the Phase2L1GMT package
+# from L1Trigger.Phase2L1GMT.gmt_cff import *
+# _phase2_siml1emulator.add(customProducer)
+
+from L1Trigger.L1TTrackMatch.L1TkMuonStubProducer_cfi import *
+_phase2_siml1emulator.add(L1TkMuonStubS12)
+
+# Muon Jet producer
+# from L1Trigger.L1TMuonJet.L1TMuonJetProducer_cfi import *
+# _phase2_siml1emulator.add(l1tMuonJets)
+
+
 # --> add modules
 from Configuration.Eras.Modifier_phase2_trigger_cff import phase2_trigger
 phase2_trigger.toReplaceWith( SimL1EmulatorTask , _phase2_siml1emulator)
