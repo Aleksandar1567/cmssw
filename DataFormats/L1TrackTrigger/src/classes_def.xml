@@ -51,5 +51,12 @@
   <class name="edm::Wrapper<tt::TTTrackRefMap>"/>
   <class name="TTDTC"/>
   <class name="edm::Wrapper<TTDTC>"/>
+
+  <class name="l1t::L1TkMuonParticle">
+  </class>
+  <class name="std::vector<l1t::L1TkMuonParticle>"/>
+  <class name="edm::Wrapper<std::vector<l1t::L1TkMuonParticle> >"/>
+  <class name="edm::Ref<std::vector<l1t::L1TkMuonParticle>,l1t::L1TkMuonParticle,edm::refhelper::FindUsingAdvance<std::vector<l1t::L1TkMuonParticle>,l1t::L1TkMuonParticle> >"/>
+
 </lcgdict>
 
