@@ -24,8 +24,6 @@ namespace l1t {
       typedef std::vector< L1TTTrackType > L1TTTrackCollection;
       typedef edm::Ref<L1TTTrackCollection> L1TTTrackRef;
       typedef std::vector<edm::Ref<L1TTTrackCollection > > L1TTrackRefVector;
-      typedef edm::Ref<EMTFHitCollection> EMTFHitRef;
-      typedef std::vector<edm::Ref<EMTFHitCollection > > EMTFHitRefVector;
 
       enum MuonType
       {

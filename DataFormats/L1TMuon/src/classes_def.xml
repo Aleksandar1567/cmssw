@@ -51,6 +51,13 @@
   <class name="l1t::EMTFHit"/>
   <class name="l1t::EMTFHitCollection"/>
   <class name="edm::Wrapper<l1t::EMTFHitCollection>"/>
+  <class name="edm::Ref<l1t::EMTFHitCollection>"/>
+  <class name="edm::RefProd<l1t::EMTFHitCollection>"/>
+  <class name="edm::RefVector<l1t::EMTFHitCollection>"/>
+  <class name="edm::Wrapper<edm::RefVector<l1t::EMTFHitCollection> >"/>
+  <class name="edm::Ref<vector<l1t::EMTFHit> >"/>
+
+
   <class name="l1t::EMTFRoad"/>
   <class name="l1t::EMTFRoadCollection"/>
   <class name="edm::Wrapper<l1t::EMTFRoadCollection>"/>

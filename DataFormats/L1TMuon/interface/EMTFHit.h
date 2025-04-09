@@ -8,6 +8,7 @@
 #include <cstdint>
 #include <vector>
 
+#include "DataFormats/Common/interface/Ref.h"
 #include "DataFormats/MuonDetId/interface/CSCDetId.h"
 #include "DataFormats/MuonDetId/interface/RPCDetId.h"
 #include "DataFormats/MuonDetId/interface/GEMDetId.h"
@@ -379,6 +380,8 @@ namespace l1t {
 
   // Define a vector of EMTFHit
   typedef std::vector<EMTFHit> EMTFHitCollection;
+  typedef edm::Ref<EMTFHitCollection> EMTFHitRef;
+  typedef std::vector<EMTFHitRef> EMTFHitRefVector;
 
 }  // End of namespace l1t
 
